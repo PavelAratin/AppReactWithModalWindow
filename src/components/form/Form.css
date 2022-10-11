@@ -1,0 +1,24 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.form .form__label{
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 18px;
+}
+.form .form__input{
+  height: 25px;
+  padding: 5px;
+}
+.form .form__btn{
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
